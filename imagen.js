@@ -2,7 +2,7 @@
  function cambiarImagen() {
     let imagen = document.getElementById('illustration-sign-up');
     
-    if (window.matchMedia("(max-width: 400px)").matches) {
+    if (window.matchMedia("(max-width: 659px)").matches) {
         imagen.src = "./assets/images/illustration-sign-up-mobile.svg";
         imagen.alt = "Image 2";
     } else {
@@ -12,7 +12,7 @@
 }
 
 // Escucha cambios en la media query
-let mediaQuery = window.matchMedia("(max-width: 400px)");
+let mediaQuery = window.matchMedia("(max-width: 659px)");
 mediaQuery.addListener(cambiarImagen);
 
 // Llama a la función para configurar la imagen inicial

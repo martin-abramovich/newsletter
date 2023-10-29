@@ -99,7 +99,17 @@ li {
     margin-bottom: 10px; /* Espacio entre elementos de la lista */
 }
 
-@media (max-width: 400px) {
+.content p br {
+    display: none;
+}
+
+@media (min-width: 820px) {
+    .content p br {
+        display: block;
+    }
+}
+
+@media (max-width: 659px) {
     main {
         margin: 0;
     }
@@ -125,10 +135,6 @@ li {
 
     #register h1 {
         margin-top: 30px;
-    }
-
-    .content p br {
-        display: none;
     }
 
     li {
