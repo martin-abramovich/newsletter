@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./assets/css/index.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: whitesmoke;}
+    .attribution a { color: whitesmoke; }
+  </style>
+</head>
+<body>
+  <main>
+    <form action="/thanks" id="register">
+      <div class="content">
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly <br> updates on:</p>
+        <ul>
+          <li>Product discovery and building what matters</li>
+          <li>Measuring to ensure updates are a success</li>
+          <li>And much more!</li>
+        </ul>
+        <label for="email-input">Email address</label>
+        <input type="email" name="email" id="email-input" placeholder="email@company.com">
+        <button type="submit" id="b-submit">Subscribe to monthly newsletter</button>
+    </div>
+    <div class="image">
+      <img src="./assets/images/illustration-sign-up-desktop.svg" alt="image" id="illustration-sign-up">
+    </div>
+    </form>
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Martín Abramovich</a>.
+  </footer>
+ 
+  <script src="./validations.js"></script>
+  <script src="./imagen.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+</body>
+</html>
