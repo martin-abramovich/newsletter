@@ -103,6 +103,7 @@ li {
     display: none;
 }
 
+
 @media (min-width: 820px) {
     .content p br {
         display: block;
